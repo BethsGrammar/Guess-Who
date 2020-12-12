@@ -1,17 +1,5 @@
-import turtle
-
-turtle.register_shape('images/anne.gif')
-# turtle object 
-anne = turtle.Turtle() 
-anne2 = turtle.Turtle()
-# changing the cursor 
-# shape to cirlce 
-#anne.shape('images/anne.gif')
-anne.setposition(0,200)
-anne.shape('images/anne.gif')
-anne2.setposition(-200,200)
-anne2.shape('images/anne.gif')
-
+import characters
+from turtleImages import layoutBoard
 
 # Instantiate each turtle with a custom shape
 
@@ -33,3 +21,4 @@ anne2.shape('images/anne.gif')
 # each time the player asks a question, the program could ask if the player
 # wants to guess who the person is.
 # If all 5 questions are exhuasted and the guess is wrong, the program/CPU wins.
+layoutBoard()
