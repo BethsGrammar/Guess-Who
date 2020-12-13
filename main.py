@@ -123,3 +123,4 @@ alex_c.image = alex_grey # using this line, i change the image for a person
 sleep(2)
 layoutBoard() # as you can see if I display the board again, Alex's colour changes
 
+sc.exitonclick() # Keep this line last on the file
